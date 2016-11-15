@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3D 轮播</title>
+</head>
+<body>
+	<div id="con" style="width: 800px;height:205px"></div>
+	<script src="js.js"></script>
+	<script>
+		Marquee({
+			perspective: 200,
+			contentWidth: 600,
+			contentHeight: 205,
+			containerWidth: 800,
+			containerHeight: 205,
+			imageList: ['0.jpg','1.jpg','2.jpg','3.jpg','4.jpg'],
+			container: document.getElementById('con')
+		})
+	</script>
+</body>
+</html>
